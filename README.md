@@ -8,14 +8,24 @@ using NodeJS, WebRTC and Websockets
 ```
 
 ```
-localhost:3000/socket.io/socket.io.js
+https://javascript.plainenglish.io/cant-access-camera-or-microphone-in-webrtc-apps-solve-using-navigator-mediadevices-web-api-c0ffe5cbd32c
 ```
 
 ```
-socket.join(roomName)
-socket.to(roomName).emit("welcome", message) //나를 제외하고 다른 곳들에만 보낸다.
+https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/addstream_event
 ```
 
 ```
-admin.socket.io
+> npm i -g localtunnel
+> npx localtunnel --port 3000
+실행후 다른 터미널을 열고
+> npm run dev
+```
+
+```
+https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/createDataChannel
+```
+
+```
+myDataChannel.send("hello")
 ```
